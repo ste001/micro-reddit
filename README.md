@@ -1,24 +1,16 @@
-# README
+# Micro reddit
+An example application, illustrating a system where the user can create posts and comment on them.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Info
 
-Things you may want to cover:
+To run it, clone this repo locally, and then run these commands on the Terminal.
+```
+cd ~/micro-reddit
+rails console
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can then create new users, posts or comments simply by using:
+```
+item.create
+```
+where item could be User, Post or Comment.
